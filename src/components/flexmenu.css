@@ -1,0 +1,38 @@
+.flexMenu {
+  position: relative;
+}
+
+.flexMenu ul {
+  list-style: none;
+  font-size: 3rem;
+  padding: 0 0 0 1em;
+}
+
+.flexMenu ul li {
+  cursor: pointer;
+  transition: opacity 400ms ease;
+  padding: 4% 0;
+  opacity: 0.75;
+}
+
+.flexMenu ul .activeItem {
+  opacity: 1;
+}
+
+.flexMenu ul:hover li {
+  opacity: 0.3;
+}
+.flexMenu ul:hover li:hover {
+  opacity: 1;
+}
+
+.dashArrow {
+  left: 1em;
+  height: 1px;
+  width: 1em;
+  background-color: #fff;
+
+  transition: transform 300ms ease;
+
+  position: absolute;
+}
